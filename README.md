@@ -109,18 +109,36 @@ Trust is never assumed. Every access request should be verified and continuously
 ## Screenshots
 
 ### Tenant Overview
+![Tenant Overview](screenshots/tenant-overview.png)
 
 ### User Administration
+![User Administration](screenshots/user-list.png)
 
 ### Security Groups
+![Security Groups](screenshots/group-list.png)
+
+### Administrative Group Membership
+![Administrative Group Membership](screenshots/cloud-admin-membership.png)
 
 ### Role Assignments
 
+#### User Administrator Role
+![User Administrator Role](screenshots/user-administrator-role.png)
+
+#### Security Reader Role
+![Security Reader Role](screenshots/security-reader-role.png)
+
 ### Role Validation Audit
 
-### Authentication Policies
+Role assignments were exported from Microsoft Entra ID and reviewed externally to validate administrative permissions and support governance activities.
+
+![Role Validation Audit](screenshots/role-audit-export.png)
 
 ### Sign-In Monitoring
+
+Authentication activity was reviewed through Microsoft Entra sign-in logs to gain visibility into account activity and identity events.
+
+![Sign-In Monitoring](screenshots/sign-in-logs.png)
 
 ---
 
